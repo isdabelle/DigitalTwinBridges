@@ -14,7 +14,7 @@ for ii = 1:numel(fileNames)
     rd = importCOUNTLOGfile(fileNames{ii}, 2, 100000);
 
     rd.Speed(isnan(rd.Speed)) = 50;
-    rd.Time = rd.h + rd.m/60 + rd.s/3600 + rd.ms/360000;
+    rd.Time = rd.h + rd.m/60 + rd.s/3600 + rd.ms/3600000; %Adjusted the ms value calculation
 
     save(sprintf('%s%s', dir_name, fileNames{ii}(1:end-4)),'rd')
 end
