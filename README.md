@@ -1,6 +1,6 @@
 # Swiss Traffic Project
 
-This the thesis project of Isabelle Pumford at EPFL. It is co-advised by the TRANSOR and RESS laboratories and it's aim is to model traffic over bridges.
+This the thesis project of Isabelle Pumford at EPFL. It is co-advised by the TRANSP-OR and RESSLab laboratories and its aim is to model traffic over bridges.
 
 Currently there are two main sources of data for the project, circulation traffic data(CSACR) and Weigh-in-Motion(WIM) data. The cirulation data gives vehicles classified in SWISS10 types, vehicle length and speed. The WIM data records the length of large vehicles (>3000kg) and their total weight + axle weight.
 
